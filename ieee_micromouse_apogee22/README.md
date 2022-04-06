@@ -5,57 +5,6 @@
 
 
 
-## gmaze - Gazebo Micromouse Maze Generator 
-
-**Gmaze** is a tool which can be used to generate Micromouse maze for Gazebo from a text file image of the maze. 
-
-
-
-To design and generate your own maze follow the following steps,
-
-1.  Navigate to `gmaze` folder.
-
-2. In order to make your own maze make a copy of `sample_maze.mz` and name it let's say `my_maze.mz`. Open this file in a text editor. The file contains ASCII text drawing of the maze.  You can edit this file as per your requirement.
-
-3. Open up terminal in the `gmaze`folder and type the following command.
-
-   ```sh
-   ./setup.sh
-   ```
-
-4. Now `Gazebo` will open up. On top right corner of your Gazebo instance you will be able to see three buttons.
-
-   1. First button is to load your maze text file.
-   2. Second button is to generate the maze in Gazebo from the text file.
-
-5. Now press the first button and load `my_maze.mz` which you just created in step 2.
-
-6. Press the second button to generate the maze in Gazebo.
-
-7. Once maze is generated click on the robot at the start of the maze and press `delete` to remove the robot from arena.
-
-8. After deleting the robot, click on File -> Save World As and save the world as `my_maze.world`.
-
-9. Now go to `pkg_ieee_imc/world` folder and move the `my_maze.world` there.
-
-10. Now go to `pkg_ieee_imc/launch` folder and open `gazebo.launch` in a text editor.
-
-11. Change the following line,
-
-    ```xml
-    <arg name="world_name" value="$(find pkg_ieee_imc)/world/arena.world"/>
-    ```
-
-    to
-
-    ```xml
-    <arg name="world_name" value="$(find pkg_ieee_imc)/world/my_maze.world"/>
-    ```
-
-    
-Note: 
-
-
 ## pkg_ieee_imc - ROS Micromouse Template Package
 
 This ROS Package consists of four main folders which you can edit as per the rules of the competition.
