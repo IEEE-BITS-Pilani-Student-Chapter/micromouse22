@@ -4,7 +4,7 @@
 # Apogee 2022 - Micromouse Competition
 
 
-![logo](/assets/images/logo.png)
+![logo](/assets/images/IEEE Logo.png)
 
 ## Submission Policy
 
