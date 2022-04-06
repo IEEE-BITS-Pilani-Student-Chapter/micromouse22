@@ -14,7 +14,7 @@
 >A single ROS Launch file called final.launch should be present in pkg_ieee_micromouse which should load all the necessary ROS nodes, RViz and Gazebo Simulation to solve theMaze present in arena.world which can be found in the pkg_ieee_micromouse ROS package.
 
 
-***Note: rviz simulation is for your refrence,even if you cant load rviz simulation you wont be penalized***
+***Note: rviz simulation is for your refrence,even if you can't load rviz simulation you won't be penalized***
 
 >You can modify the ros package present in the pkg_ieee_micromouse ROS package as per your need.
 
