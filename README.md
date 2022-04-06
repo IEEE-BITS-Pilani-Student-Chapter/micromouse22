@@ -34,7 +34,7 @@
 >Also record a 'bag file' of the simulation. refer this link for doing the same : [http://wiki.ros.org/rosbag/Tutorials/Recording%20and%20playing%20back%20data]
 
 
-## learning resources are provided in 'ROS-Learning-resources.md' readme file inside the package
+## Learning resources are provided in 'ROS-Learning-resources.md' readme file inside the package
 
 ***
 
