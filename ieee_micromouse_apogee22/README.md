@@ -22,6 +22,13 @@ This ROS Package consists of four main folders which you can edit as per the rul
     In this folder we have kept the main urdf_file with the maze included in it. In this urdf file you can edit the file to customize the robot within the competition rules.
 
 
+### To run the Gazebo simulation run this command:
+
+```
+roslaunch pkg_ieee_imc gazebo.launch
+```
+
+
 
 ### To run the rviz visualization run this command:
 
@@ -31,20 +38,13 @@ roslaunch pkg_ieee_imc rviz.launch
 
 
 
-### To run the Gazebo simulation run this command:
-
-```
-roslaunch pkg_ieee_imc gazebo.launch
-```
-
-
 
 ### To run the both visualization and simulation simultaneosuly run this command:
 
 ```
 roslaunch pkg_ieee_imc final.launch
 ```
-
+### Note : if the final.launch command and the rviz.launch command  gives an error use gazebo.launch.You won't be penalized for not using rviz simulation
 
 
 ### To run any python file run this command:
